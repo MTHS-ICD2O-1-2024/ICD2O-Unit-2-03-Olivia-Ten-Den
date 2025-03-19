@@ -56,14 +56,6 @@
         <div class="page-content">Please enter the following:</div>
         <br />
         <form>
-          <!-- Simple Textfield -->
-          <p>Street Name</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="street-name" />
-            <label class="mdl-textfield__label" for="sample1"
-              >Name here...</label
-            >
-          </div>
           <!-- Numeric Textfield -->
           <p>Street Number</p>
           <div class="mdl-textfield mdl-js-textfield">
@@ -77,6 +69,14 @@
               >Number here ...</label
             >
             <span class="mdl-textfield__error">Input is not a number!</span>
+            <!-- Simple Textfield -->
+          </div>
+          <p>Street Name</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="street-name" />
+            <label class="mdl-textfield__label" for="sample1"
+              >Name here...</label
+            >
           </div>
           <br />
           <!-- Raised button with ripple -->
@@ -90,7 +90,7 @@
         </form>
         <br />
         <div class="page-content-answer">
-          <div id="user-address"></div>
+          <div id="user-address"><p>Click Enter to see the address.</p></div>
         </div>
       </main>
     </div>
